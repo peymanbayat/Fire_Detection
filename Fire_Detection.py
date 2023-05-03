@@ -55,7 +55,7 @@ if app_mode == 'About App':
 """)   
 
 if app_mode == 'Run on Image':
-    st.subheader("No. of required Valve(s):")
+    st.subheader("No. of Required Oxygen Valve(s):")
     text = st.markdown("")
     
     st.sidebar.markdown("---")
@@ -80,7 +80,7 @@ if app_mode == 'Run on Image':
     st.image(output,use_column_width=True)
     
 if app_mode == 'Run on Video':
-    st.subheader("No. of required Valve(s):")
+    st.subheader("No. of Required Oxygen Valve(s):")
     text = st.markdown("")
     
     st.sidebar.markdown("---")
@@ -117,7 +117,7 @@ if app_mode == 'Run on Video':
         stframe.image(output)
         
 if app_mode == 'Run on WebCam':
-    st.subheader("No. of required Valve(s):")
+    st.subheader("No. of Required Oxygen Valve(s):")
     text = st.markdown("")
     
     st.sidebar.markdown("---")
