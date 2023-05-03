@@ -11,7 +11,7 @@ def load_model():
     model = torch.hub.load('ultralytics/yolov5','custom',path="weights/last.pt",force_reload=True)
     return model
 
-demo_img = "5.png"
+demo_img = "6.png"
 demo_video = "melting metals.mp4"
 
 st.title('BurnHancer')
