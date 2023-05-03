@@ -12,7 +12,7 @@ def load_model():
     return model
 
 demo_img = "fire.9.png"
-demo_video = "Fire_Video.mp4"
+demo_video = "melting metals.mp4"
 
 st.title('BurnHancer')
 st.sidebar.title('App Mode')
