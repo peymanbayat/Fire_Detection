@@ -55,7 +55,7 @@ if app_mode == 'About App':
 """)   
 
 if app_mode == 'Run on Image':
-    st.subheader("Detected Flame:")
+    st.subheader("No. of required Valves:")
     text = st.markdown("")
     
     st.sidebar.markdown("---")
@@ -80,7 +80,7 @@ if app_mode == 'Run on Image':
     st.image(output,use_column_width=True)
     
 if app_mode == 'Run on Video':
-    st.subheader("Detected Flame:")
+    st.subheader("No. of required Valves:")
     text = st.markdown("")
     
     st.sidebar.markdown("---")
@@ -117,7 +117,7 @@ if app_mode == 'Run on Video':
         stframe.image(output)
         
 if app_mode == 'Run on WebCam':
-    st.subheader("Detected Flame:")
+    st.subheader("No. of required Valves:")
     text = st.markdown("")
     
     st.sidebar.markdown("---")
