@@ -56,7 +56,7 @@ if app_mode == 'About App':
 
 if app_mode == 'Run on Image':
     st.subheader("Detected Flame:")
-    text = st.markdown("")
+    text = st.markdown("20")
     
     st.sidebar.markdown("---")
     # Input for Image
