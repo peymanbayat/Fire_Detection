@@ -76,7 +76,7 @@ if app_mode == 'Run on Image':
     length = len(results.xyxy[0])
     output = np.squeeze(results.render())
     text.write(f"<h1 style='text-align: center; color:red;'>{length}</h1>",unsafe_allow_html = True)
-    st.subheader("Output Image\n The Amount of Unburned Carbon is: 30%")
+    st.subheader("Output Image\n The Amount of Unburned Carbon is: 30% /n One Oxygen Valve Injector is Required to be ON")
     st.image(output,use_column_width=True)
     
 if app_mode == 'Run on Video':
